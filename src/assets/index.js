@@ -21,6 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import netherland from "./company/netherland.png";
+import youtube from "./company/youtube.png";
+import website from "./company/website.png";
+import react from "./company/react.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -52,10 +56,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  netherland,
+  youtube,
+  website,
+  react,
+  // meta,
+  // shopify,
+  // starbucks,
+  // tesla,
   carrent,
   jobit,
   tripguide,

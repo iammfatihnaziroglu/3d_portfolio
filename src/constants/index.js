@@ -15,15 +15,21 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    netherland,
+    youtube,
+    website,
+    react,
+    // meta,
+    // starbucks,
+    // tesla,
+    // shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
+
+  
   
   export const navLinks = [
     {
@@ -42,19 +48,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Javascript Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "React.js Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Three.js Developer",
       icon: creator,
     },
   ];
@@ -116,55 +122,61 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Expanding Cards ",
+      company_name: "for My Github",
+      company_link: "https://github.com/terravision7/Expanding_Cards",
+      icon: netherland,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "6 August 2023 ",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "HTML: I structured the content using HTML elements, providing a foundation for the cards and their associated images.",
+        "CSS: By employing CSS styling, I brought the cards to life with visual enhancements and animations, ensuring a captivating user interface.",
+        "JavaScript: Through JavaScript, I implemented the functionality that allows users to click on a card to expand it, revealing additional content or details.",
+        "Visual Design: I carefully designed the layout and transitions to enhance the visual aesthetics and ensure a seamless user experience.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Youtube Clone App",
+      company_name: "for My Github",
+      company_link: "https://github.com/terravision7/YoutubeClone",
+      icon: youtube,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "React.js: I designed comprehensive component structures to create an interactive user interface.",
+        "HTML and CSS: I customized the application's appearance and layout, striving for a user-friendly experience.",
+        "API Integration: Utilizing the YouTube Data API, I fetched and displayed real-time videos.",
+        "User Experience (UX) and User Interface (UI): I designed an intuitive interface that allows users to navigate easily and discover content.",
+        " Responsive Design: I ensured the design was mobile-responsive, providing seamless access from mobile devices.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "3D Portfolio this Web Site",
+      company_name: "for My Github",
+      company_link: "https://github.com/terravision7/3d_portfolio",
+      icon: react,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "August 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "React.js: Leveraging the power of React's component-based architecture, I designed a seamless user experience that facilitates easy navigation through my portfolio content.",
+        "Tailwind CSS: I harnessed the utility-first approach of Tailwind CSS to rapidly and consistently style components, resulting in a polished and responsive design.",
+        "Vite.js: With Vite's lightning-fast development server, I ensured swift iteration and rapid prototyping during the project's development phases.",
+        "Three.js: The heart of the project was Three.js, which enabled me to integrate captivating 3D elements, animations, and interactive scenes into the portfolio. This technology allowed me to showcase my work in an engaging and memorable manner.",
+        "User Interaction and UI/UX: I paid meticulous attention to user interaction, incorporating intuitive navigation, smooth transitions, and engaging animations to guide visitors through the portfolio's content. ",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "As Soon As Possible..",
+      company_name: "As Soon As Possible..",
+      company_link: "https://github.com/terravision7?tab=repositories",
+      icon: website,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "As Soon As Possible..",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "As Soon As Possible..",
+        "As Soon As Possible..",
+        "As Soon As Possible..",
+        "As Soon As Possible..",
       ],
     },
   ];
@@ -198,7 +210,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Youtube-Clone",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
