@@ -15,8 +15,8 @@ const Hero = () => {
 
       <div>
         <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]"> M.Fatih  </span></h1>
-        <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
-        I develop web applications, user <br className="sm:block hidden"/>interfaces and 3D visuals like this site.
+        <p className={`${styles.heroSubText} mt-2 text-gray-300`}>
+        I bring web applications to life with captivating <br className="sm:block hidden"/> user interfaces and immersive 3D visuals, <br className="sm:block hidden"/> just like the one you're experiencing now.
 
         </p>
       </div>

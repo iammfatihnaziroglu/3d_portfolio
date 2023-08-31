@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedinicon from "./linkedinicon.png";
+import spotifyicon from "./spotifyicon.png";
+import instagramicon from "./instagramicon.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,14 +28,12 @@ import netherland from "./company/netherland.png";
 import youtube from "./company/youtube.png";
 import website from "./company/website.png";
 import react from "./company/react.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import cv from "./cv.png";
+import spotify from "./spotify.png";
+import insta from "./insta.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -60,11 +61,11 @@ export {
   youtube,
   website,
   react,
-  // meta,
-  // shopify,
-  // starbucks,
-  // tesla,
-  carrent,
+  cv,
+  spotify,
+  insta,
   jobit,
-  tripguide,
+  linkedinicon,
+  spotifyicon,
+  instagramicon,
 };

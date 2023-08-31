@@ -19,14 +19,13 @@ import {
     youtube,
     website,
     react,
-    // meta,
-    // starbucks,
-    // tesla,
-    // shopify,
-    carrent,
-    jobit,
-    tripguide,
+    cv,
+    spotify,
+    insta,
     threejs,
+    linkedinicon,
+    spotifyicon,
+    instagramicon,
   } from "../assets";
 
   
@@ -38,7 +37,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Projects",
+    },
+    {
+      id: "me",
+      title: "Me",
     },
     {
       id: "contact",
@@ -184,25 +187,25 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
+        "I thought it was impossible to make a website as beautiful as our product, but Mehmet Fatih proved me wrong.",
+      name: "Sara Van der linden",
+      designation: "Project Manager",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
+        "I've never met a web developer who truly cares about their clients' success like M.Fatih does.",
+      name: "Chris Mayer",
+      designation: "Customer",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Mehmet Fatih optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
-      designation: "CTO",
+      designation: "HR",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
@@ -210,67 +213,70 @@ import {
   
   const projects = [
     {
-      name: "Youtube-Clone",
+      name: "Linkedln",
+      icon: linkedinicon,
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Sometimes I post videos of my own projects here, also you can find part of my CV here. (not all, if you want all, contact me and I will send it to you in pdf. also pdf cv in english and linkedin account cv in turkish, for now) ",
       tags: [
         {
-          name: "react",
+          name: "business",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "experiences",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "cv",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: cv,
+      source_code_link: "https://www.linkedin.com/in/mehmet-fatih-naziro%C4%9Flu-64927515b/",
     },
     {
-      name: "Job IT",
+      name: "Spotify Artist",
+      icon: spotifyicon,
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "I am also a musician, apart from being a front-end developer. I can say that I really enjoy producing, playing and singing music, it's a stress reliever! Feel free to listen and share. Have a great time.",
       tags: [
         {
-          name: "react",
+          name: "rock'n roll",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "grunge",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "instrumental",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: spotify,
+      source_code_link: "https://open.spotify.com/artist/0zVLrU3dy9r76FIFJrhE23?si=5jX6s7WsQquAY-En5svVYg",
     },
     {
-      name: "Trip Guide",
+      name: "Instagram",
+      icon: instagramicon,
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This is my instagram account. Sometimes I am happy to share photos while doing what I love. Music posts, nature photos, my photos from the places I have travelled... In short, classic instagram account :)",
       tags: [
         {
-          name: "nextjs",
+          name: "cool",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "travel",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "hobbies",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: insta,
+      source_code_link: "https://www.instagram.com/iammfatihnaziro/",
     },
   ];
   
