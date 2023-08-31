@@ -77,11 +77,7 @@ const Experience = () => {
         <motion.p
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          The world of front-end development is a place of constant renewal, and I am always committed to staying up to date. By discovering new design trends and continuously learning, I ensure that I'm equipped to incorporate the latest technologies and best practices into my work. This commitment to learning is the key to delivering cutting-edge projects that not only meet but exceed expectations.
         </motion.p>
       </div>
 
