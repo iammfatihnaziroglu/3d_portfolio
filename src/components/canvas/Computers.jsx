@@ -1,12 +1,12 @@
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useState, useRef } from "react";
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from '../Loader';
 
-const Computers = ({ isMobile }) => {
+const Computers = ({ isMobile, zoomedIn }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf');
- 
+
   return (
     <mesh>
       <hemisphereLight intensity={0.4} groundColor='black'/>
@@ -20,10 +20,10 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <primitive 
-       object={computer.scene}
-       scale={isMobile ? 0.7 : 0.75}
-       position={isMobile ? [0, -3, -2.2]: [ 0, -3.25, -1.5 ]}
-       rotation={[ -0.01, -0.2, -0.1 ]}
+        object={computer.scene}
+        scale={isMobile ? 0.7 : 0.75}
+        position={isMobile ? [0, -3, -2.2]: [ 0, -3.25, -1.5 ]}
+        rotation={[ -0.01, -0.2, -0.1 ]}
       />
     </mesh>
   )
@@ -31,6 +31,8 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [zoomedIn, setZoomedIn] = useState(false);
+  const [clickable, setClickable] = useState(true);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width:500px)');
@@ -38,37 +40,48 @@ const ComputersCanvas = () => {
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
-        setIsMobile(event.matches);
+      setIsMobile(event.matches);
     }
 
     mediaQuery.addEventListener('change', handleMediaQueryChange);
 
     return () => {
-      mediaQuery.addEventListener('change', handleMediaQueryChange);
+      mediaQuery.removeEventListener('change', handleMediaQueryChange); // removeEventListener kullanımı düzeltiliyor
     }
-  }, [ ])
-  
+  }, []);
 
-  return(
-    <Canvas 
+  const canvasRef = useRef(null);
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "Enter") {
+        setZoomedIn(!zoomedIn);
+        canvasRef.current.style.cursor = zoomedIn ? "auto" : "zoom-in"; // Mouse imlecinin stilini güncelle
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [zoomedIn]);
+
+  return (
+    <Canvas
       frameLoop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov:25 }}
+      camera={{ position: [20, 1, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
-      >
-        <Suspense fallback={<CanvasLoader />}>
-          <OrbitControls 
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-          />
-          <Computers isMobile={isMobile} />
-
-        </Suspense>
-
-        <Preload all/>
+      ref={canvasRef}
+    >
+      <Suspense fallback={<CanvasLoader />}>
+        <OrbitControls enableZoom={zoomedIn} />
+        <Computers isMobile={isMobile} zoomedIn={zoomedIn} />
+      </Suspense>
+      <Preload all />
     </Canvas>
-  ) 
+  )
 }
 
-export default ComputersCanvas
+export default ComputersCanvas;
