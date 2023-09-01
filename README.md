@@ -20,8 +20,11 @@ Vite provides a fast and modern development environment. We used Vite to quickly
 ### https://3d-portfolio-tawny-ten.vercel.app/
 
 
+![WhatsApp Image 2023-09-02 at 00 32 17](https://github.com/terravision7/3d_portfolio/assets/84978857/c9a6168b-bae7-49a8-a06d-8e16cdf64f8a)
 
 
+![WhatsApp Image 2023-09-02 at 00 32 18 (1)](https://github.com/terravision7/3d_portfolio/assets/84978857/9513d0b6-f2cf-4ba5-a367-c51c1d5e2c70)
 
 
+![WhatsApp Image 2023-09-02 at 00 32 18](https://github.com/terravision7/3d_portfolio/assets/84978857/5018584c-7e9b-4f25-af66-f64d5d322766)
 
