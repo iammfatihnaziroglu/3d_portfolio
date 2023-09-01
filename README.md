@@ -1,20 +1,27 @@
-# React + Vite
+# 3D Portfolio Website Project
+### React.js + Vite + Tailwind Css + Three.js
 
-## React.js + Vite + Tailwind Css + Three.js
+## Technologies Used
+I used the following technologies to build this project:
 
-##### The finishing touches are being put on it. It will be organised at the end of the day on 01.09.2023 with a nice read.me and preview video. And a link to the site will be here later. 
-###### Until then, you can only examine the codes of this beautiful project by implementing it on your own computer.
+### React.js
+React is a popular JavaScript library used for creating user interfaces. In our project, we opted for React to build a component-based structure and manage data dynamically.
+
+### Three.js
+Three.js is a JavaScript library used for creating 3D graphics and animations. This library allowed us to visualize our projects in 3D space and provide users with a captivating 3D experience.
+
+### Tailwind CSS
+Tailwind CSS enables the use of customizable CSS components quickly and flexibly. We chose Tailwind CSS to design our website's layout.
+
+### Vite
+Vite provides a fast and modern development environment. We used Vite to quickly start and develop our project.
+
+## Here the link for the preview video.
+### https://3d-portfolio-tawny-ten.vercel.app/
 
 
 
 
-##### Start:
-#### npm run dev
 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
