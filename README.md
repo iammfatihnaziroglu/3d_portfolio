@@ -16,10 +16,10 @@ Tailwind CSS enables the use of customizable CSS components quickly and flexibly
 ### Vite
 Vite provides a fast and modern development environment. We used Vite to quickly start and develop our project.
 
-## Here the link for the preview video. Only use your computer. Not yet fully mobile compatible(only iphone devices smooth correctly).
+## Here the link for the live examine. Only use your computer. Not yet fully mobile compatible(only iphone devices smooth correctly).
 ### https://3d-portfolio-tawny-ten.vercel.app/
 ## Here the video on website:
-## https://www.linkedin.com/posts/mehmet-fatih-naziro%C4%9Flu-64927515b_hello-linkedin-community-i-am-excited-to-activity-7103503658285215744-Sr6R?utm_source=share&utm_medium=member_desktop
+### https://www.linkedin.com/posts/mehmet-fatih-naziro%C4%9Flu-64927515b_hello-linkedin-community-i-am-excited-to-activity-7103503658285215744-Sr6R?utm_source=share&utm_medium=member_desktop
 
 ![WhatsApp Image 2023-09-02 at 00 32 17](https://github.com/terravision7/3d_portfolio/assets/84978857/c9a6168b-bae7-49a8-a06d-8e16cdf64f8a)
 
