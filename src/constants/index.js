@@ -127,7 +127,7 @@ import {
     {
       title: "Expanding Cards ",
       company_name: "for My Github",
-      company_link: "https://github.com/terravision7/Expanding_Cards",
+      company_link: "https://github.com/iammfatihnaziroglu/Expanding_Cards",
       icon: netherland,
       iconBg: "#383E56",
       date: "6 August 2023 ",
@@ -141,7 +141,7 @@ import {
     {
       title: "Youtube Clone App",
       company_name: "for My Github",
-      company_link: "https://github.com/terravision7/YoutubeClone",
+      company_link: "https://github.com/iammfatihnaziroglu/YoutubeClone",
       icon: youtube,
       iconBg: "#E6DEDD",
       date: "August 2023 - August 2023",
@@ -156,7 +156,7 @@ import {
     {
       title: "3D Portfolio this Web Site",
       company_name: "for My Github",
-      company_link: "https://github.com/terravision7/3d_portfolio",
+      company_link: "https://github.com/iammfatihnaziroglu/3d_portfolio",
       icon: react,
       iconBg: "#383E56",
       date: "August 2023 - August 2023",
@@ -171,7 +171,7 @@ import {
     {
       title: "As Soon As Possible..",
       company_name: "As Soon As Possible..",
-      company_link: "https://github.com/terravision7?tab=repositories",
+      company_link: "https://github.com/iammfatihnaziroglu?tab=repositories",
       icon: website,
       iconBg: "#E6DEDD",
       date: "As Soon As Possible..",
@@ -232,7 +232,7 @@ import {
         },
       ],
       image: cv,
-      source_code_link: "https://www.linkedin.com/in/mehmet-fatih-naziro%C4%9Flu-64927515b/",
+      source_code_link: "https://www.linkedin.com/in/iammfatihnaziroglu/",
     },
     {
       name: "Spotify Artist",
